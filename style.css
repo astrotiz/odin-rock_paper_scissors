@@ -1,0 +1,71 @@
+body {
+    height: 900px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.playButtons {
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 90px;
+    height: 40px;
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+button:disabled {
+    background-color: lightgray;
+}
+
+#btnReset {
+    background-color: red;
+}
+
+.results {
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    justify-content: space-around;
+}
+
+#turn {
+    font-size: 30px;
+}
+
+#counter {
+    font-size: 30px;
+}
+
+#winner {
+    color: red;
+    font-size: 40px;
+}
+
+#credits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
