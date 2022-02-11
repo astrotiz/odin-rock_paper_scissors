@@ -89,6 +89,3 @@ const btnPaperEvent = document.querySelector('#btnPaper').addEventListener('clic
 const btnScissorsEvent = document.querySelector('#btnScissors').addEventListener('click', function() {game("Scissors"); playSound("scissors");});
 
 const btnResetEvent = document.querySelector('#btnReset').addEventListener('click', function() {reset()});
-
-
-/* aggiungere suoni di sasso carta forbice alla pressione del tasto */
